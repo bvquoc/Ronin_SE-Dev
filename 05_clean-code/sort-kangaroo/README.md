@@ -2,7 +2,7 @@
 
 ## Problem
 
-Có N con kanguru trong vườn thú, con thứ i có chiều cao bằng `A[i]`. Con kanguru có chiều cao `X` có thể chứa được một con có chiều cao bằng `Y` trong túi của nó nếu như `X >= 2*Y`. Một con đã chứa một con kanguru rồi, thì không thể nhảy vào túi một con kanguru khác. Bầy Kangaroo rất thích chơi trốn tìm, vì vậy chúng thường xuyên nhảy vào túi của nhau. Các bạn hãy tính toán xem trong trường hợp tối ưu, số con Kangaroo nhìn thấy trong vườn thú ít nhất bằng bao nhiêu?
+Có N con kanguru trong vườn thú, con thứ `i` có chiều cao bằng `A[i]`. Con kanguru có chiều cao `X` có thể chứa được một con có chiều cao bằng `Y` trong túi của nó nếu như `X >= 2*Y`. Một con đã chứa một con kanguru rồi, thì không thể nhảy vào túi một con kanguru khác. Bầy Kangaroo rất thích chơi trốn tìm, vì vậy chúng thường xuyên nhảy vào túi của nhau. Các bạn hãy tính toán xem trong trường hợp tối ưu, số con Kangaroo nhìn thấy trong vườn thú ít nhất bằng bao nhiêu?
 
 ## Input
 
