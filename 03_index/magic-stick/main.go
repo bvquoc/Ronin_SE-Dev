@@ -11,7 +11,7 @@ func main() {
 	var b []int
 
 	readInput(&n, &a, &b)
-	process(&n, &a, &b)
+	solve(&n, &a, &b)
 }
 
 func readInput(n *int, a, b *[]int) {
@@ -30,7 +30,7 @@ func readInput(n *int, a, b *[]int) {
 	}
 }
 
-func process(n *int, a, b *[]int) {
+func solve(n *int, a, b *[]int) {
 	const YES = "YES"
 	const NO = "NO"
 
