@@ -22,9 +22,9 @@ func process(n int, a *[]int) {
 	var r int = len(*a) - 1
 
 	for _, v := range *a {
-		var curRes int
-		l, curRes = binarySearch(a, l, r, v)
-		if curRes == -1 {
+		var pos int
+		l, pos = binarySearch(a, l, r, v)
+		if pos == -1 {
 			break
 		}
 		res--
